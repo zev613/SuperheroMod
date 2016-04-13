@@ -66,8 +66,4 @@
 /nativelog.text
 
 *.lnk
-!*.png
-
-
-
-/out
+*.png
