@@ -1,7 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aac6d3d3-5065-45d3-a401-0fe1588d78d3" name="Default" comment="" />
+    <list default="true" id="aac6d3d3-5065-45d3-a401-0fe1588d78d3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/commands/CommandChangeSuit.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/boots_catwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/boots_deathstroke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/boots_greenarrowcw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/boots_harleyquinn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/boots_scarecrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/boots_speedy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsbatmandarkknight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsblackcanary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsgreenarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsgreenlantern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootshawkgirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootskidflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsmartian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsmossuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsnightwing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsnightwingred.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsrobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsrobindamian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootsshazam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootssuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootswonderwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/bootszoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplate_catwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplate_deathstroke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplate_greenarrowcw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplate_harleyquinn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplate_scarecrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplate_speedy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatebatmandarkknight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplateblackcanary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplateflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplategreenarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplategreenlantern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatehawkgirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatekidflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatemartian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatemossuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatenightwing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatenightwingred.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplateredrobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplaterobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplaterobindamian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplateshazam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatesuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatewonderwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/chestplatezoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmet_catwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmet_deathstroke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmet_greenarrowcw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmet_harleyquinn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmet_scarecrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmet_speedy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetbatmandarkknight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetblackcanary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetgreenarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetgreenlantern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmethawkgirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetkidflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetmartian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetnightwing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetnightwingred.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetredrobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetrobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetrobindamian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetshazam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetwonderwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/helmetzoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legs_catwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legs_deathstroke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legs_greenarrowcw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legs_harleyquinn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legs_scarecrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legs_speedy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsbatmandarkknight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsblackcanary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsgreenarrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsgreenlantern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legshawkgirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legskidflash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsmartian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsmossuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsnightwing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsnightwingred.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsredrobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsrobin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsrobindamian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legsshazam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legssuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legswonderwoman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/Unused/legszoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/aquaman_Boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/aquaman_Chest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/aquaman_Head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/aquaman_Pants.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/drFateBoots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/drFateChest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/drFateHead.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/drFatePants.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flash2Boots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flash2Chest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flash2Head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flash2Pants.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/speedyBoots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/speedyChest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/speedyHead.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/speedyPants.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/arkhamKnight_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/arkhamKnight_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/azrael_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/azrael_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/harleyQuinnNew52_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/harleyQuinnNew52_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanJLABoots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanJLAChest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanJLAHead.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanJLAPants.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanWestBoots.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanWestChest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanWestHead.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanWestPants.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootsbatmanlord.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootsblackadam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootsjoker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootsmossuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootsredhood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootssupergirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/bootstwoface.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplatebatmanlord.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplateblackadam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplatejoker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplatemossuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplateredhood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplatesupergirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/chestplatetwoface.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/helmetbatmanlord.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/helmetjoker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/helmetredhood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/helmetsupergirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/helmettwoface.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legsbatmanlord.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legsblackadam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legsjoker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legsmossuperman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legsredhood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legssupergirl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/legstwoface.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/Unused/batman4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/Unused/batman_other2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/arkhamKnight_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/arkhamKnight_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/azrael_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/azrael_layer_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/harleyQuinnNew52_layer_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/harleyQuinnNew52_layer_2.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/batgirlPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/flashPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/greenLanternPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/kidFlashPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/nightwingPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodBoots.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/redHoodPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlashChest.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlashChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlashHead.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlashHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlashPants.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/items/reverseFlashPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirlArkham_1.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirlArkham_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirlArkham_2.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirlArkham_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirl_1.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirl_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirl_2.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/batgirl_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/blackCanaryCW_1.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/blackCanaryCW_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/blackCanary_1.png" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/textures/models/blackCanary_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/Main.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/init/ModCostume.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/init/ModCostume.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/init/ModDCCostumes.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/init/ModDCCostumes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/init/ModMarvelCostumes.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/init/ModMarvelCostumes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$2.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$3.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$4.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$5.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$6.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$7.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$8.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$9.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs.class" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/com/zseltzer/superheroes/tabs/ModTabs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batgirlPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Boots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Boots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Chest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Chest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Head.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Pants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batman1989Pants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanArmoredPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/batmanDarkKnightReturnsPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/deathstrokeCWPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Boots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Boots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Chest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Chest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Head.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Pants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/martianManhunter2Pants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/redHoodPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWBoots.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWBoots.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashCWPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashChest.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashChest.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashHead.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashHead.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashPants.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/items/reverseFlashPants.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirlArkham_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirlArkham_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirlArkham_2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirlArkham_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirl_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirl_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirl_2.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/batgirl_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/blackCanaryCW_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/blackCanaryCW_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/blackCanary_1.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/textures/models/blackCanary_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZevSuperheroMod.ipr" afterPath="$PROJECT_DIR$/ZevSuperheroMod.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZevSuperheroMod.iws" afterPath="$PROJECT_DIR$/ZevSuperheroMod.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/lang/en_US.lang" afterPath="$PROJECT_DIR$/out/production/ZevSuperheroMod/assets/superheromod/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java" afterPath="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/superheromod/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/superheromod/lang/en_US.lang" />
+    </list>
     <ignored path="ZevSuperheroMod.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,8 +318,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +327,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModMarvelCostumes.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ModMarvelCostumes.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="671">
+              <caret line="3182" column="11" selection-start-line="3182" selection-start-column="11" selection-end-line="3182" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemTestCostume.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/costumes/ItemTestCostume.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,8 +350,8 @@
       <file leaf-file-name="ModCostume.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="88">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +362,20 @@
       <file leaf-file-name="ModDCCostumes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37158">
-              <caret line="1694" column="90" selection-start-line="1694" selection-start-column="90" selection-end-line="1694" selection-end-column="90" />
+            <state relative-caret-position="7634">
+              <caret line="352" column="58" selection-start-line="352" selection-start-column="58" selection-end-line="352" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandChangeSuit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/commands/CommandChangeSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +393,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModTabs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModTabs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/tabs/ModTabs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="286">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,9 +410,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1760">
               <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,18 +420,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModBlocks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModBlocks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,6 +433,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -191,15 +457,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/costumes/ItemCostumeMarvel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/costumes/ItemCostumeDC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/proxies/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModRecipes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/costumes/ItemGenericCostume.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/tabs/ModTabs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/commands/CommandChangeSuit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/costumes/ItemTestCostume.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java" />
       </list>
     </option>
   </component>
@@ -218,9 +486,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -255,7 +524,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -498,14 +767,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevSuperheroMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZevSuperheroMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="superheroes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="blocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -515,7 +814,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -813,7 +1112,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1932" height="1038" extended-state="1" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,17 +1125,17 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24865447" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10616438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4382151" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -865,23 +1164,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/proxies/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25344">
-          <caret line="1156" column="0" selection-start-line="1156" selection-start-column="0" selection-end-line="1156" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/tabs/ModTabs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -896,9 +1178,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -906,9 +1186,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,9 +1246,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,9 +1299,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1606">
           <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,13 +1367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/proxies/CommonProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1143,35 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1186,16 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1211,6 +1437,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/tabs/ModTabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/commands/CommandChangeSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/costumes/ItemTestCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModCostume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1219,21 +1506,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModDCCostumes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37158">
-          <caret line="1694" column="90" selection-start-line="1694" selection-start-column="90" selection-end-line="1694" selection-end-column="90" />
+        <state relative-caret-position="7634">
+          <caret line="352" column="58" selection-start-line="352" selection-start-column="58" selection-end-line="352" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/tabs/ModTabs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zseltzer/superheroes/init/ModMarvelCostumes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="671">
+          <caret line="3182" column="11" selection-start-line="3182" selection-start-column="11" selection-end-line="3182" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

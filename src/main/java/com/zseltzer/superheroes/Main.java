@@ -1,6 +1,7 @@
 package com.zseltzer.superheroes;
 
 import com.zseltzer.superheroes.Reference;
+import com.zseltzer.superheroes.commands.CommandChangeSuit;
 import com.zseltzer.superheroes.init.*;
 import com.zseltzer.superheroes.proxies.CommonProxy;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -59,7 +60,7 @@ public class Main
     @EventHandler
     public void serverLoad(FMLServerStartingEvent event)
     {
-        //event.registerServerCommand(new CommandChangeSuit());
+        event.registerServerCommand(new CommandChangeSuit());
 
         //event.registerServerCommand(new CommandShazam());
 

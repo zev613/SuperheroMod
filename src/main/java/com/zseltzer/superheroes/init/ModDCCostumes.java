@@ -29,6 +29,8 @@ public class ModDCCostumes
 
         Item ATOMHead, ATOMChest, ATOMPants, ATOMBoots;
 
+        Item atomClassicHead, atomClassicChest, atomClassicPants, atomClassicBoots;
+
         Item batgirlHead, batgirlChest, batgirlPants, batgirlBoots;
 
         Item batgirlArkhamHead, batgirlArkhamChest, batgirlArkhamPants, batgirlArkhamBoots;
@@ -66,6 +68,8 @@ public class ModDCCostumes
         Item blackCanaryHead, blackCanaryChest, blackCanaryPants, blackCanaryBoots;
 
         Item blackCanaryCWHead, blackCanaryCWChest, blackCanaryCWPants, blackCanaryCWBoots;
+
+        Item blackLanternHead, blackLanternChest, blackLanternPants, blackLanternBoots;
 
         Item blackLightningHead, blackLightningChest, blackLightningPants, blackLightningBoots;
 
@@ -145,6 +149,8 @@ public class ModDCCostumes
 
         Item nightwingRedHead, nightwingRedChest, nightwingRedPants, nightwingRedBoots;
 
+        Item orangeLanternHead, orangeLanternChest, orangeLanternPants, orangeLanternBoots;
+
         Item plasticManHead, plasticManChest, plasticManPants, plasticManBoots;
 
         Item queenMeraHead, queenMeraChest, queenMeraPants, queenMeraBoots;
@@ -191,8 +197,6 @@ public class ModDCCostumes
 
         Item supermanRedSonHead, supermanRedSonChest, supermanRedSonPants, supermanRedSonBoots;
 
-        Item atomClassicHead, atomClassicChest, atomClassicPants, atomClassicBoots;
-
         Item questionHead, questionChest, questionPants, questionBoots;
 
         Item question2Head, question2Chest, question2Pants, question2Boots;
@@ -208,6 +212,8 @@ public class ModDCCostumes
         Item wallyWestNew52Head, wallyWestNew52Chest, wallyWestNew52Pants, wallyWestNew52Boots;
 
         Item whiteCanaryCWHead, whiteCanaryCWChest, whiteCanaryCWPants, whiteCanaryCWBoots;
+
+        Item whiteLanternHead, whiteLanternChest, whiteLanternPants, whiteLanternBoots;
 
         Item wonderGirlHead, wonderGirlChest, wonderGirlPants, wonderGirlBoots;
 
@@ -265,7 +271,7 @@ public class ModDCCostumes
 
         Item chronosHead, chronosChest, chronosPants, chronosBoots;
 
-        Item cupidHead, cupidChest, cupidPants, cupidBoots;
+        Item cupidCWHead, cupidCWChest, cupidCWPants, cupidCWBoots;
 
         Item cyborgSupermanHead, cyborgSupermanChest, cyborgSupermanPants, cyborgSupermanBoots;
 
@@ -343,7 +349,8 @@ public class ModDCCostumes
 
         Item zoomCWHead, zoomCWChest, zoomCWPants, zoomCWBoots;
 
-        int renderIndex = Main.proxy.addArmor("custom_armor");
+
+    int renderIndex = Main.proxy.addArmor("custom_armor");
 
 
                 //HEROES
@@ -359,10 +366,10 @@ public class ModDCCostumes
         aquamanPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "aquaman").setUnlocalizedName("aquamanPants").setCreativeTab(ModTabs.tabDCHeroes);
         aquamanBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "aquaman").setUnlocalizedName("aquamanBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        aquamanMovieHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "aquamanMovie").setUnlocalizedName("aquamanMovieHead").setCreativeTab(ModTabs.tabDCHeroes);
-        aquamanMovieChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "aquamanMovie").setUnlocalizedName("aquamanMovieChest").setCreativeTab(ModTabs.tabDCHeroes);
-        aquamanMoviePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "aquamanMovie").setUnlocalizedName("aquamanMoviePants").setCreativeTab(ModTabs.tabDCHeroes);
-        aquamanMovieBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "aquamanMovie").setUnlocalizedName("aquamanMovieBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        aquamanMovieHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "aquamanMovie").setUnlocalizedName("aquamanMovieHead").setCreativeTab(ModTabs.tabDCVariants);
+        aquamanMovieChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "aquamanMovie").setUnlocalizedName("aquamanMovieChest").setCreativeTab(ModTabs.tabDCVariants);
+        aquamanMoviePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "aquamanMovie").setUnlocalizedName("aquamanMoviePants").setCreativeTab(ModTabs.tabDCVariants);
+        aquamanMovieBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "aquamanMovie").setUnlocalizedName("aquamanMovieBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         arrowetteHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "arrowette").setUnlocalizedName("arrowetteHead").setCreativeTab(ModTabs.tabDCHeroes);
         arrowetteChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "arrowette").setUnlocalizedName("arrowetteChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -384,75 +391,80 @@ public class ModDCCostumes
         ATOMPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "ATOM").setUnlocalizedName("ATOMPants").setCreativeTab(ModTabs.tabDCHeroes);
         ATOMBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "ATOM").setUnlocalizedName("ATOMBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
+        atomClassicHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "atomClassic").setUnlocalizedName("atomClassicHead").setCreativeTab(ModTabs.tabDCVariants);
+        atomClassicChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "atomClassic").setUnlocalizedName("atomClassicChest").setCreativeTab(ModTabs.tabDCVariants);
+        atomClassicPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "atomClassic").setUnlocalizedName("atomClassicPants").setCreativeTab(ModTabs.tabDCVariants);
+        atomClassicBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "atomClassic").setUnlocalizedName("atomClassicBoots").setCreativeTab(ModTabs.tabDCVariants);
+
         batgirlHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batgirl").setUnlocalizedName("batgirlHead").setCreativeTab(ModTabs.tabDCHeroes);
         batgirlChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batgirl").setUnlocalizedName("batgirlChest").setCreativeTab(ModTabs.tabDCHeroes);
         batgirlPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batgirl").setUnlocalizedName("batgirlPants").setCreativeTab(ModTabs.tabDCHeroes);
         batgirlBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batgirl").setUnlocalizedName("batgirlBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        batgirlArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batgirlArkham").setUnlocalizedName("batgirlArkhamHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batgirlArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batgirlArkham").setUnlocalizedName("batgirlArkhamChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batgirlArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batgirlArkham").setUnlocalizedName("batgirlArkhamPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batgirlArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batgirlArkham").setUnlocalizedName("batgirlArkhamBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batgirlArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batgirlArkham").setUnlocalizedName("batgirlArkhamHead").setCreativeTab(ModTabs.tabDCVariants);
+        batgirlArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batgirlArkham").setUnlocalizedName("batgirlArkhamChest").setCreativeTab(ModTabs.tabDCVariants);
+        batgirlArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batgirlArkham").setUnlocalizedName("batgirlArkhamPants").setCreativeTab(ModTabs.tabDCVariants);
+        batgirlArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batgirlArkham").setUnlocalizedName("batgirlArkhamBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batman1960Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batman1960").setUnlocalizedName("batman1960Head").setCreativeTab(ModTabs.tabDCHeroes);
-        batman1960Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batman1960").setUnlocalizedName("batman1960Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        batman1960Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batman1960").setUnlocalizedName("batman1960Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        batman1960Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batman1960").setUnlocalizedName("batman1960Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        batman1960Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batman1960").setUnlocalizedName("batman1960Head").setCreativeTab(ModTabs.tabDCVariants);
+        batman1960Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batman1960").setUnlocalizedName("batman1960Chest").setCreativeTab(ModTabs.tabDCVariants);
+        batman1960Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batman1960").setUnlocalizedName("batman1960Pants").setCreativeTab(ModTabs.tabDCVariants);
+        batman1960Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batman1960").setUnlocalizedName("batman1960Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batman1989Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batman1989").setUnlocalizedName("batman1989Head").setCreativeTab(ModTabs.tabDCHeroes);
-        batman1989Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batman1989").setUnlocalizedName("batman1989Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        batman1989Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batman1989").setUnlocalizedName("batman1989Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        batman1989Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batman1989").setUnlocalizedName("batman1989Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        batman1989Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batman1989").setUnlocalizedName("batman1989Head").setCreativeTab(ModTabs.tabDCVariants);
+        batman1989Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batman1989").setUnlocalizedName("batman1989Chest").setCreativeTab(ModTabs.tabDCVariants);
+        batman1989Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batman1989").setUnlocalizedName("batman1989Pants").setCreativeTab(ModTabs.tabDCVariants);
+        batman1989Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batman1989").setUnlocalizedName("batman1989Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanAnimatedSeriesHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanAnimatedSeriesChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanAnimatedSeriesPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanAnimatedSeriesBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanAnimatedSeriesHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanAnimatedSeriesChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanAnimatedSeriesPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanAnimatedSeriesBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanAnimatedSeries").setUnlocalizedName("batmanAnimatedSeriesBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanArmoredHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanArmored").setUnlocalizedName("batmanArmoredHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanArmoredChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanArmored").setUnlocalizedName("batmanArmoredChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanArmoredPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanArmored").setUnlocalizedName("batmanArmoredPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanArmoredBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanArmored").setUnlocalizedName("batmanArmoredBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanArmoredHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanArmored").setUnlocalizedName("batmanArmoredHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanArmoredChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanArmored").setUnlocalizedName("batmanArmoredChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanArmoredPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanArmored").setUnlocalizedName("batmanArmoredPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanArmoredBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanArmored").setUnlocalizedName("batmanArmoredBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanBlueHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanBlue").setUnlocalizedName("batmanBlueHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanBlueChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanBlue").setUnlocalizedName("batmanBlueChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanBluePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanBlue").setUnlocalizedName("batmanBluePants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanBlueBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanBlue").setUnlocalizedName("batmanBlueBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanBlueHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanBlue").setUnlocalizedName("batmanBlueHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanBlueChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanBlue").setUnlocalizedName("batmanBlueChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanBluePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanBlue").setUnlocalizedName("batmanBluePants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanBlueBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanBlue").setUnlocalizedName("batmanBlueBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanDarkKnightReturnsHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDarkKnightReturnsChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDarkKnightReturnsPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDarkKnightReturnsBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanDarkKnightReturnsHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDarkKnightReturnsChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDarkKnightReturnsPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDarkKnightReturnsBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDarkKnightReturns").setUnlocalizedName("batmanDarkKnightReturnsBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanDOJHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDOJ").setUnlocalizedName("batmanDOJHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDOJChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDOJ").setUnlocalizedName("batmanDOJChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDOJPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDOJ").setUnlocalizedName("batmanDOJPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDOJBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDOJ").setUnlocalizedName("batmanDOJBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanDOJHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDOJ").setUnlocalizedName("batmanDOJHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDOJChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDOJ").setUnlocalizedName("batmanDOJChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDOJPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDOJ").setUnlocalizedName("batmanDOJPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDOJBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDOJ").setUnlocalizedName("batmanDOJBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanDesertHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDesert").setUnlocalizedName("batmanDesertHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDesertChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDesert").setUnlocalizedName("batmanDesertChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDesertPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDesert").setUnlocalizedName("batmanDesertPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDesertBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDesert").setUnlocalizedName("batmanDesertBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanDesertHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDesert").setUnlocalizedName("batmanDesertHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDesertChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDesert").setUnlocalizedName("batmanDesertChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDesertPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDesert").setUnlocalizedName("batmanDesertPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDesertBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDesert").setUnlocalizedName("batmanDesertBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanZurrEnArrhHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanZurrEnArrhChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanZurrEnArrhPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanZurrEnArrhBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanZurrEnArrhHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanZurrEnArrhChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanZurrEnArrhPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanZurrEnArrhBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanZurrEnArrh").setUnlocalizedName("batmanZurrEnArrhBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanZeroYearHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanZeroYear").setUnlocalizedName("batmanZeroYearHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanZeroYearChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanZeroYear").setUnlocalizedName("batmanZeroYearChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanZeroYearPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanZeroYear").setUnlocalizedName("batmanZeroYearPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanZeroYearBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanZeroYear").setUnlocalizedName("batmanZeroYearBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanZeroYearHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanZeroYear").setUnlocalizedName("batmanZeroYearHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanZeroYearChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanZeroYear").setUnlocalizedName("batmanZeroYearChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanZeroYearPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanZeroYear").setUnlocalizedName("batmanZeroYearPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanZeroYearBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanZeroYear").setUnlocalizedName("batmanZeroYearBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanBeyondHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanBeyond").setUnlocalizedName("batmanBeyondHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanBeyondChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanBeyond").setUnlocalizedName("batmanBeyondChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanBeyondPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanBeyond").setUnlocalizedName("batmanBeyondPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanBeyondBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanBeyond").setUnlocalizedName("batmanBeyondBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanBeyondHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanBeyond").setUnlocalizedName("batmanBeyondHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanBeyondChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanBeyond").setUnlocalizedName("batmanBeyondChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanBeyondPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanBeyond").setUnlocalizedName("batmanBeyondPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanBeyondBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanBeyond").setUnlocalizedName("batmanBeyondBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        batmanDarkKnightHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightHead").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDarkKnightChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightChest").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDarkKnightPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightPants").setCreativeTab(ModTabs.tabDCHeroes);
-        batmanDarkKnightBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        batmanDarkKnightHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightHead").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDarkKnightChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightChest").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDarkKnightPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightPants").setCreativeTab(ModTabs.tabDCVariants);
+        batmanDarkKnightBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "batmanDarkKnight").setUnlocalizedName("batmanDarkKnightBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         batmanNew52Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "batmanNew52").setUnlocalizedName("batmanNew52Head").setCreativeTab(ModTabs.tabDCHeroes);
         batmanNew52Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "batmanNew52").setUnlocalizedName("batmanNew52Chest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -474,25 +486,35 @@ public class ModDCCostumes
         blackCanaryPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blackCanary").setUnlocalizedName("blackCanaryPants").setCreativeTab(ModTabs.tabDCHeroes);
         blackCanaryBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blackCanary").setUnlocalizedName("blackCanaryBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        blackCanaryCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blackCanaryCW").setUnlocalizedName("blackCanaryCWHead").setCreativeTab(ModTabs.tabDCHeroes);
-        blackCanaryCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blackCanaryCW").setUnlocalizedName("blackCanaryCWChest").setCreativeTab(ModTabs.tabDCHeroes);
-        blackCanaryCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blackCanaryCW").setUnlocalizedName("blackCanaryCWPants").setCreativeTab(ModTabs.tabDCHeroes);
-        blackCanaryCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blackCanaryCW").setUnlocalizedName("blackCanaryCWBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        blackCanaryCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blackCanaryCW").setUnlocalizedName("blackCanaryCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        blackCanaryCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blackCanaryCW").setUnlocalizedName("blackCanaryCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        blackCanaryCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blackCanaryCW").setUnlocalizedName("blackCanaryCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        blackCanaryCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blackCanaryCW").setUnlocalizedName("blackCanaryCWBoots").setCreativeTab(ModTabs.tabDCVariants);
+
+        blackLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blackLantern").setUnlocalizedName("blackLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
+        blackLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blackLantern").setUnlocalizedName("blackLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
+        blackLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blackLantern").setUnlocalizedName("blackLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
+        blackLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blackLantern").setUnlocalizedName("blackLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
         blackLightningHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blackLightning").setUnlocalizedName("blackLightningHead").setCreativeTab(ModTabs.tabDCHeroes);
         blackLightningChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blackLightning").setUnlocalizedName("blackLightningChest").setCreativeTab(ModTabs.tabDCHeroes);
         blackLightningPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blackLightning").setUnlocalizedName("blackLightningPants").setCreativeTab(ModTabs.tabDCHeroes);
         blackLightningBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blackLightning").setUnlocalizedName("blackLightningBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
+        blueLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blueLantern").setUnlocalizedName("blueLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
+        blueLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blueLantern").setUnlocalizedName("blueLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
+        blueLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blueLantern").setUnlocalizedName("blueLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
+        blueLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blueLantern").setUnlocalizedName("blueLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
+
         blueBeetleHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blueBeetle").setUnlocalizedName("blueBeetleHead").setCreativeTab(ModTabs.tabDCHeroes);
         blueBeetleChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blueBeetle").setUnlocalizedName("blueBeetleChest").setCreativeTab(ModTabs.tabDCHeroes);
         blueBeetlePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blueBeetle").setUnlocalizedName("blueBeetlePants").setCreativeTab(ModTabs.tabDCHeroes);
         blueBeetleBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blueBeetle").setUnlocalizedName("blueBeetleBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        blueBeetleTedKordHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordHead").setCreativeTab(ModTabs.tabDCHeroes);
-        blueBeetleTedKordChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordChest").setCreativeTab(ModTabs.tabDCHeroes);
-        blueBeetleTedKordPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordPants").setCreativeTab(ModTabs.tabDCHeroes);
-        blueBeetleTedKordBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        blueBeetleTedKordHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordHead").setCreativeTab(ModTabs.tabDCVariants);
+        blueBeetleTedKordChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordChest").setCreativeTab(ModTabs.tabDCVariants);
+        blueBeetleTedKordPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordPants").setCreativeTab(ModTabs.tabDCVariants);
+        blueBeetleTedKordBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "blueBeetleTedKord").setUnlocalizedName("blueBeetleTedKordBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         boosterGoldHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "boosterGold").setUnlocalizedName("boosterGoldHead").setCreativeTab(ModTabs.tabDCHeroes);
         boosterGoldChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "boosterGold").setUnlocalizedName("boosterGoldChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -519,10 +541,10 @@ public class ModDCCostumes
         doctorFatePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "doctorFate").setUnlocalizedName("doctorFatePants").setCreativeTab(ModTabs.tabDCHeroes);
         doctorFateBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "doctorFate").setUnlocalizedName("doctorFateBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        doctorFate2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "doctorFate2").setUnlocalizedName("doctorFate2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        doctorFate2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "doctorFate2").setUnlocalizedName("doctorFate2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        doctorFate2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "doctorFate2").setUnlocalizedName("doctorFate2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        doctorFate2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "doctorFate2").setUnlocalizedName("doctorFate2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        doctorFate2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "doctorFate2").setUnlocalizedName("doctorFate2Head").setCreativeTab(ModTabs.tabDCVariants);
+        doctorFate2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "doctorFate2").setUnlocalizedName("doctorFate2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        doctorFate2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "doctorFate2").setUnlocalizedName("doctorFate2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        doctorFate2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "doctorFate2").setUnlocalizedName("doctorFate2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
         doveHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "dove").setUnlocalizedName("doveHead").setCreativeTab(ModTabs.tabDCHeroes);
         doveChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "dove").setUnlocalizedName("doveChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -539,55 +561,55 @@ public class ModDCCostumes
         flashPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "flash").setUnlocalizedName("flashPants").setCreativeTab(ModTabs.tabDCHeroes);
         flashBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "flash").setUnlocalizedName("flashBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        flashCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "flashCW").setUnlocalizedName("flashCWHead").setCreativeTab(ModTabs.tabDCHeroes);
-        flashCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "flashCW").setUnlocalizedName("flashCWChest").setCreativeTab(ModTabs.tabDCHeroes);
-        flashCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "flashCW").setUnlocalizedName("flashCWPants").setCreativeTab(ModTabs.tabDCHeroes);
-        flashCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "flashCW").setUnlocalizedName("flashCWBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        flashCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "flashCW").setUnlocalizedName("flashCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        flashCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "flashCW").setUnlocalizedName("flashCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        flashCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "flashCW").setUnlocalizedName("flashCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        flashCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "flashCW").setUnlocalizedName("flashCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         greenArrowHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenArrow").setUnlocalizedName("greenArrowHead").setCreativeTab(ModTabs.tabDCHeroes);
         greenArrowChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenArrow").setUnlocalizedName("greenArrowChest").setCreativeTab(ModTabs.tabDCHeroes);
         greenArrowPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenArrow").setUnlocalizedName("greenArrowPants").setCreativeTab(ModTabs.tabDCHeroes);
         greenArrowBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenArrow").setUnlocalizedName("greenArrowBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        greenArrowClassicHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenArrowClassic").setUnlocalizedName("greenArrowClassicHead").setCreativeTab(ModTabs.tabDCHeroes);
-        greenArrowClassicChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenArrowClassic").setUnlocalizedName("greenArrowClassicChest").setCreativeTab(ModTabs.tabDCHeroes);
-        greenArrowClassicPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenArrowClassic").setUnlocalizedName("greenArrowClassicPants").setCreativeTab(ModTabs.tabDCHeroes);
-        greenArrowClassicBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenArrowClassic").setUnlocalizedName("greenArrowClassicBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        greenArrowClassicHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenArrowClassic").setUnlocalizedName("greenArrowClassicHead").setCreativeTab(ModTabs.tabDCVariants);
+        greenArrowClassicChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenArrowClassic").setUnlocalizedName("greenArrowClassicChest").setCreativeTab(ModTabs.tabDCVariants);
+        greenArrowClassicPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenArrowClassic").setUnlocalizedName("greenArrowClassicPants").setCreativeTab(ModTabs.tabDCVariants);
+        greenArrowClassicBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenArrowClassic").setUnlocalizedName("greenArrowClassicBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        greenArrowCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenArrowCW").setUnlocalizedName("greenArrowCWHead").setCreativeTab(ModTabs.tabDCHeroes);
-        greenArrowCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenArrowCW").setUnlocalizedName("greenArrowCWChest").setCreativeTab(ModTabs.tabDCHeroes);
-        greenArrowCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenArrowCW").setUnlocalizedName("greenArrowCWPants").setCreativeTab(ModTabs.tabDCHeroes);
-        greenArrowCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenArrowCW").setUnlocalizedName("greenArrowCWBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        greenArrowCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenArrowCW").setUnlocalizedName("greenArrowCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        greenArrowCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenArrowCW").setUnlocalizedName("greenArrowCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        greenArrowCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenArrowCW").setUnlocalizedName("greenArrowCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        greenArrowCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenArrowCW").setUnlocalizedName("greenArrowCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         greenLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLantern").setUnlocalizedName("greenLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
         greenLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLantern").setUnlocalizedName("greenLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
         greenLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLantern").setUnlocalizedName("greenLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
         greenLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLantern").setUnlocalizedName("greenLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        greenLantern2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLantern2").setUnlocalizedName("greenLantern2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLantern2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLantern2").setUnlocalizedName("greenLantern2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLantern2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLantern2").setUnlocalizedName("greenLantern2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLantern2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLantern2").setUnlocalizedName("greenLantern2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        greenLantern2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLantern2").setUnlocalizedName("greenLantern2Head").setCreativeTab(ModTabs.tabDCVariants);
+        greenLantern2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLantern2").setUnlocalizedName("greenLantern2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        greenLantern2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLantern2").setUnlocalizedName("greenLantern2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        greenLantern2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLantern2").setUnlocalizedName("greenLantern2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        greenLantern3Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLantern3").setUnlocalizedName("greenLantern3Head").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLantern3Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLantern3").setUnlocalizedName("greenLantern3Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLantern3Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLantern3").setUnlocalizedName("greenLantern3Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLantern3Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLantern3").setUnlocalizedName("greenLantern3Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        greenLantern3Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLantern3").setUnlocalizedName("greenLantern3Head").setCreativeTab(ModTabs.tabDCVariants);
+        greenLantern3Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLantern3").setUnlocalizedName("greenLantern3Chest").setCreativeTab(ModTabs.tabDCVariants);
+        greenLantern3Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLantern3").setUnlocalizedName("greenLantern3Pants").setCreativeTab(ModTabs.tabDCVariants);
+        greenLantern3Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLantern3").setUnlocalizedName("greenLantern3Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        greenLanternJohnStewartHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartHead").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLanternJohnStewartChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartChest").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLanternJohnStewartPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartPants").setCreativeTab(ModTabs.tabDCHeroes);
-        greenLanternJohnStewartBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        greenLanternJohnStewartHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartHead").setCreativeTab(ModTabs.tabDCVariants);
+        greenLanternJohnStewartChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartChest").setCreativeTab(ModTabs.tabDCVariants);
+        greenLanternJohnStewartPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartPants").setCreativeTab(ModTabs.tabDCVariants);
+        greenLanternJohnStewartBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "greenLanternJohnStewart").setUnlocalizedName("greenLanternJohnStewartBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         hawkgirlHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "hawkgirl").setUnlocalizedName("hawkgirlHead").setCreativeTab(ModTabs.tabDCHeroes);
         hawkgirlChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "hawkgirl").setUnlocalizedName("hawkgirlChest").setCreativeTab(ModTabs.tabDCHeroes);
         hawkgirlPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "hawkgirl").setUnlocalizedName("hawkgirlPants").setCreativeTab(ModTabs.tabDCHeroes);
         hawkgirlBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "hawkgirl").setUnlocalizedName("hawkgirlBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        hawkgirlCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "hawkgirlCW").setUnlocalizedName("hawkgirlCWHead").setCreativeTab(ModTabs.tabDCHeroes);
-        hawkgirlCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "hawkgirlCW").setUnlocalizedName("hawkgirlCWChest").setCreativeTab(ModTabs.tabDCHeroes);
-        hawkgirlCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "hawkgirlCW").setUnlocalizedName("hawkgirlCWPants").setCreativeTab(ModTabs.tabDCHeroes);
-        hawkgirlCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "hawkgirlCW").setUnlocalizedName("hawkgirlCWBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        hawkgirlCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "hawkgirlCW").setUnlocalizedName("hawkgirlCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        hawkgirlCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "hawkgirlCW").setUnlocalizedName("hawkgirlCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        hawkgirlCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "hawkgirlCW").setUnlocalizedName("hawkgirlCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        hawkgirlCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "hawkgirlCW").setUnlocalizedName("hawkgirlCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         hawkmanHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "hawkman").setUnlocalizedName("hawkmanHead").setCreativeTab(ModTabs.tabDCHeroes);
         hawkmanChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "hawkman").setUnlocalizedName("hawkmanChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -634,10 +656,10 @@ public class ModDCCostumes
         martianManhunterPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "martianManhunter").setUnlocalizedName("martianManhunterPants").setCreativeTab(ModTabs.tabDCHeroes);
         martianManhunterBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "martianManhunter").setUnlocalizedName("martianManhunterBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        martianManhunter2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "martianManhunter2").setUnlocalizedName("martianManhunter2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        martianManhunter2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "martianManhunter2").setUnlocalizedName("martianManhunter2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        martianManhunter2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "martianManhunter2").setUnlocalizedName("martianManhunter2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        martianManhunter2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "martianManhunter2").setUnlocalizedName("martianManhunter2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        martianManhunter2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "martianManhunter2").setUnlocalizedName("martianManhunter2Head").setCreativeTab(ModTabs.tabDCVariants);
+        martianManhunter2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "martianManhunter2").setUnlocalizedName("martianManhunter2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        martianManhunter2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "martianManhunter2").setUnlocalizedName("martianManhunter2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        martianManhunter2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "martianManhunter2").setUnlocalizedName("martianManhunter2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
         maxMercuryHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "maxMercury").setUnlocalizedName("maxMercuryHead").setCreativeTab(ModTabs.tabDCHeroes);
         maxMercuryChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "maxMercury").setUnlocalizedName("maxMercuryChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -659,15 +681,20 @@ public class ModDCCostumes
         nightwingPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "nightwing").setUnlocalizedName("nightwingPants").setCreativeTab(ModTabs.tabDCHeroes);
         nightwingBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "nightwing").setUnlocalizedName("nightwingBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        nightwingArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "nightwingArkham").setUnlocalizedName("nightwingArkhamHead").setCreativeTab(ModTabs.tabDCHeroes);
-        nightwingArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "nightwingArkham").setUnlocalizedName("nightwingArkhamChest").setCreativeTab(ModTabs.tabDCHeroes);
-        nightwingArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "nightwingArkham").setUnlocalizedName("nightwingArkhamPants").setCreativeTab(ModTabs.tabDCHeroes);
-        nightwingArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "nightwingArkham").setUnlocalizedName("nightwingArkhamBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        nightwingArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "nightwingArkham").setUnlocalizedName("nightwingArkhamHead").setCreativeTab(ModTabs.tabDCVariants);
+        nightwingArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "nightwingArkham").setUnlocalizedName("nightwingArkhamChest").setCreativeTab(ModTabs.tabDCVariants);
+        nightwingArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "nightwingArkham").setUnlocalizedName("nightwingArkhamPants").setCreativeTab(ModTabs.tabDCVariants);
+        nightwingArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "nightwingArkham").setUnlocalizedName("nightwingArkhamBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        nightwingRedHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "nightwingRed").setUnlocalizedName("nightwingRedHead").setCreativeTab(ModTabs.tabDCHeroes);
-        nightwingRedChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "nightwingRed").setUnlocalizedName("nightwingRedChest").setCreativeTab(ModTabs.tabDCHeroes);
-        nightwingRedPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "nightwingRed").setUnlocalizedName("nightwingRedPants").setCreativeTab(ModTabs.tabDCHeroes);
-        nightwingRedBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "nightwingRed").setUnlocalizedName("nightwingRedBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        nightwingRedHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "nightwingRed").setUnlocalizedName("nightwingRedHead").setCreativeTab(ModTabs.tabDCVariants);
+        nightwingRedChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "nightwingRed").setUnlocalizedName("nightwingRedChest").setCreativeTab(ModTabs.tabDCVariants);
+        nightwingRedPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "nightwingRed").setUnlocalizedName("nightwingRedPants").setCreativeTab(ModTabs.tabDCVariants);
+        nightwingRedBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "nightwingRed").setUnlocalizedName("nightwingRedBoots").setCreativeTab(ModTabs.tabDCVariants);
+
+        orangeLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "orangeLantern").setUnlocalizedName("orangeLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
+        orangeLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "orangeLantern").setUnlocalizedName("orangeLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
+        orangeLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "orangeLantern").setUnlocalizedName("orangeLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
+        orangeLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "orangeLantern").setUnlocalizedName("orangeLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
         plasticManHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "plasticMan").setUnlocalizedName("plasticManHead").setCreativeTab(ModTabs.tabDCHeroes);
         plasticManChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "plasticMan").setUnlocalizedName("plasticManChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -684,6 +711,11 @@ public class ModDCCostumes
         ravenPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "raven").setUnlocalizedName("ravenPants").setCreativeTab(ModTabs.tabDCHeroes);
         ravenBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "raven").setUnlocalizedName("ravenBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
+        redLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redLantern").setUnlocalizedName("redLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
+        redLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redLantern").setUnlocalizedName("redLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
+        redLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redLantern").setUnlocalizedName("redLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
+        redLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "redLantern").setUnlocalizedName("redLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
+
         redTornadoHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redTornado").setUnlocalizedName("redTornadoHead").setCreativeTab(ModTabs.tabDCHeroes);
         redTornadoChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redTornado").setUnlocalizedName("redTornadoChest").setCreativeTab(ModTabs.tabDCHeroes);
         redTornadoPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redTornado").setUnlocalizedName("redTornadoPants").setCreativeTab(ModTabs.tabDCHeroes);
@@ -694,25 +726,25 @@ public class ModDCCostumes
         robinPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robin").setUnlocalizedName("robinPants").setCreativeTab(ModTabs.tabDCHeroes);
         robinBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robin").setUnlocalizedName("robinBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        robin2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robin2").setUnlocalizedName("robin2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        robin2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robin2").setUnlocalizedName("robin2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        robin2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robin2").setUnlocalizedName("robin2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        robin2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robin2").setUnlocalizedName("robin2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        robin2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robin2").setUnlocalizedName("robin2Head").setCreativeTab(ModTabs.tabDCVariants);
+        robin2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robin2").setUnlocalizedName("robin2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        robin2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robin2").setUnlocalizedName("robin2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        robin2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robin2").setUnlocalizedName("robin2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        robinArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robinArkham").setUnlocalizedName("robinArkhamHead").setCreativeTab(ModTabs.tabDCHeroes);
-        robinArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robinArkham").setUnlocalizedName("robinArkhamChest").setCreativeTab(ModTabs.tabDCHeroes);
-        robinArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robinArkham").setUnlocalizedName("robinArkhamPants").setCreativeTab(ModTabs.tabDCHeroes);
-        robinArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robinArkham").setUnlocalizedName("robinArkhamBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        robinArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robinArkham").setUnlocalizedName("robinArkhamHead").setCreativeTab(ModTabs.tabDCVariants);
+        robinArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robinArkham").setUnlocalizedName("robinArkhamChest").setCreativeTab(ModTabs.tabDCVariants);
+        robinArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robinArkham").setUnlocalizedName("robinArkhamPants").setCreativeTab(ModTabs.tabDCVariants);
+        robinArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robinArkham").setUnlocalizedName("robinArkhamBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        robinDickGraysonHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robinDickGrayson").setUnlocalizedName("robinDickGraysonHead").setCreativeTab(ModTabs.tabDCHeroes);
-        robinDickGraysonChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robinDickGrayson").setUnlocalizedName("robinDickGraysonChest").setCreativeTab(ModTabs.tabDCHeroes);
-        robinDickGraysonPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robinDickGrayson").setUnlocalizedName("robinDickGraysonPants").setCreativeTab(ModTabs.tabDCHeroes);
-        robinDickGraysonBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robinDickGrayson").setUnlocalizedName("robinDickGraysonBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        robinDickGraysonHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robinDickGrayson").setUnlocalizedName("robinDickGraysonHead").setCreativeTab(ModTabs.tabDCVariants);
+        robinDickGraysonChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robinDickGrayson").setUnlocalizedName("robinDickGraysonChest").setCreativeTab(ModTabs.tabDCVariants);
+        robinDickGraysonPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robinDickGrayson").setUnlocalizedName("robinDickGraysonPants").setCreativeTab(ModTabs.tabDCVariants);
+        robinDickGraysonBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robinDickGrayson").setUnlocalizedName("robinDickGraysonBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        robinTimDrakeHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robinTimDrake").setUnlocalizedName("robinTimDrakeHead").setCreativeTab(ModTabs.tabDCHeroes);
-        robinTimDrakeChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robinTimDrake").setUnlocalizedName("robinTimDrakeChest").setCreativeTab(ModTabs.tabDCHeroes);
-        robinTimDrakePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robinTimDrake").setUnlocalizedName("robinTimDrakePants").setCreativeTab(ModTabs.tabDCHeroes);
-        robinTimDrakeBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robinTimDrake").setUnlocalizedName("robinTimDrakeBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        robinTimDrakeHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "robinTimDrake").setUnlocalizedName("robinTimDrakeHead").setCreativeTab(ModTabs.tabDCVariants);
+        robinTimDrakeChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "robinTimDrake").setUnlocalizedName("robinTimDrakeChest").setCreativeTab(ModTabs.tabDCVariants);
+        robinTimDrakePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "robinTimDrake").setUnlocalizedName("robinTimDrakePants").setCreativeTab(ModTabs.tabDCVariants);
+        robinTimDrakeBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "robinTimDrake").setUnlocalizedName("robinTimDrakeBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         shazamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "shazam").setUnlocalizedName("shazamHead").setCreativeTab(ModTabs.tabDCHeroes);
         shazamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "shazam").setUnlocalizedName("shazamChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -764,45 +796,40 @@ public class ModDCCostumes
         supermanPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "superman").setUnlocalizedName("supermanPants").setCreativeTab(ModTabs.tabDCHeroes);
         supermanBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "superman").setUnlocalizedName("supermanBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        supermanDOJHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "supermanDOJ").setUnlocalizedName("supermanDOJHead").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanDOJChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "supermanDOJ").setUnlocalizedName("supermanDOJChest").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanDOJPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "supermanDOJ").setUnlocalizedName("supermanDOJPants").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanDOJBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "supermanDOJ").setUnlocalizedName("supermanDOJBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        supermanDOJHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "supermanDOJ").setUnlocalizedName("supermanDOJHead").setCreativeTab(ModTabs.tabDCVariants);
+        supermanDOJChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "supermanDOJ").setUnlocalizedName("supermanDOJChest").setCreativeTab(ModTabs.tabDCVariants);
+        supermanDOJPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "supermanDOJ").setUnlocalizedName("supermanDOJPants").setCreativeTab(ModTabs.tabDCVariants);
+        supermanDOJBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "supermanDOJ").setUnlocalizedName("supermanDOJBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        supermanMOSHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "supermanMOS").setUnlocalizedName("supermanMOSHead").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanMOSChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "supermanMOS").setUnlocalizedName("supermanMOSChest").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanMOSPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "supermanMOS").setUnlocalizedName("supermanMOSPants").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanMOSBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "supermanMOS").setUnlocalizedName("supermanMOSBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        supermanMOSHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "supermanMOS").setUnlocalizedName("supermanMOSHead").setCreativeTab(ModTabs.tabDCVariants);
+        supermanMOSChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "supermanMOS").setUnlocalizedName("supermanMOSChest").setCreativeTab(ModTabs.tabDCVariants);
+        supermanMOSPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "supermanMOS").setUnlocalizedName("supermanMOSPants").setCreativeTab(ModTabs.tabDCVariants);
+        supermanMOSBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "supermanMOS").setUnlocalizedName("supermanMOSBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        supermanRedSonHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "supermanRedSon").setUnlocalizedName("supermanRedSonHead").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanRedSonChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "supermanRedSon").setUnlocalizedName("supermanRedSonChest").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanRedSonPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "supermanRedSon").setUnlocalizedName("supermanRedSonPants").setCreativeTab(ModTabs.tabDCHeroes);
-        supermanRedSonBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "supermanRedSon").setUnlocalizedName("supermanRedSonBoots").setCreativeTab(ModTabs.tabDCHeroes);
-
-        atomClassicHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "atomClassic").setUnlocalizedName("atomClassicHead").setCreativeTab(ModTabs.tabDCHeroes);
-        atomClassicChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "atomClassic").setUnlocalizedName("atomClassicChest").setCreativeTab(ModTabs.tabDCHeroes);
-        atomClassicPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "atomClassic").setUnlocalizedName("atomClassicPants").setCreativeTab(ModTabs.tabDCHeroes);
-        atomClassicBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "atomClassic").setUnlocalizedName("atomClassicBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        supermanRedSonHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "supermanRedSon").setUnlocalizedName("supermanRedSonHead").setCreativeTab(ModTabs.tabDCVariants);
+        supermanRedSonChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "supermanRedSon").setUnlocalizedName("supermanRedSonChest").setCreativeTab(ModTabs.tabDCVariants);
+        supermanRedSonPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "supermanRedSon").setUnlocalizedName("supermanRedSonPants").setCreativeTab(ModTabs.tabDCVariants);
+        supermanRedSonBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "supermanRedSon").setUnlocalizedName("supermanRedSonBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         questionHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question").setUnlocalizedName("questionHead").setCreativeTab(ModTabs.tabDCHeroes);
         questionChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question").setUnlocalizedName("questionChest").setCreativeTab(ModTabs.tabDCHeroes);
         questionPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question").setUnlocalizedName("questionPants").setCreativeTab(ModTabs.tabDCHeroes);
         questionBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question").setUnlocalizedName("questionBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        question2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question2").setUnlocalizedName("question2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        question2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question2").setUnlocalizedName("question2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        question2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question2").setUnlocalizedName("question2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        question2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question2").setUnlocalizedName("question2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        question2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question2").setUnlocalizedName("question2Head").setCreativeTab(ModTabs.tabDCVariants);
+        question2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question2").setUnlocalizedName("question2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        question2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question2").setUnlocalizedName("question2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        question2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question2").setUnlocalizedName("question2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        question3Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question3").setUnlocalizedName("question3Head").setCreativeTab(ModTabs.tabDCHeroes);
-        question3Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question3").setUnlocalizedName("question3Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        question3Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question3").setUnlocalizedName("question3Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        question3Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question3").setUnlocalizedName("question3Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        question3Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question3").setUnlocalizedName("question3Head").setCreativeTab(ModTabs.tabDCVariants);
+        question3Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question3").setUnlocalizedName("question3Chest").setCreativeTab(ModTabs.tabDCVariants);
+        question3Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question3").setUnlocalizedName("question3Pants").setCreativeTab(ModTabs.tabDCVariants);
+        question3Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question3").setUnlocalizedName("question3Boots").setCreativeTab(ModTabs.tabDCVariants);
 
-        question4Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question4").setUnlocalizedName("question4Head").setCreativeTab(ModTabs.tabDCHeroes);
-        question4Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question4").setUnlocalizedName("question4Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        question4Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question4").setUnlocalizedName("question4Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        question4Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question4").setUnlocalizedName("question4Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        question4Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "question4").setUnlocalizedName("question4Head").setCreativeTab(ModTabs.tabDCVariants);
+        question4Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "question4").setUnlocalizedName("question4Chest").setCreativeTab(ModTabs.tabDCVariants);
+        question4Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "question4").setUnlocalizedName("question4Pants").setCreativeTab(ModTabs.tabDCVariants);
+        question4Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "question4").setUnlocalizedName("question4Boots").setCreativeTab(ModTabs.tabDCVariants);
 
         vixenHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "vixen").setUnlocalizedName("vixenHead").setCreativeTab(ModTabs.tabDCHeroes);
         vixenChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "vixen").setUnlocalizedName("vixenChest").setCreativeTab(ModTabs.tabDCHeroes);
@@ -814,60 +841,65 @@ public class ModDCCostumes
         wallyWestPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wallyWest").setUnlocalizedName("wallyWestPants").setCreativeTab(ModTabs.tabDCHeroes);
         wallyWestBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wallyWest").setUnlocalizedName("wallyWestBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        wallyWestNew52Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Head").setCreativeTab(ModTabs.tabDCHeroes);
-        wallyWestNew52Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        wallyWestNew52Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        wallyWestNew52Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        wallyWestNew52Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Head").setCreativeTab(ModTabs.tabDCVariants);
+        wallyWestNew52Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Chest").setCreativeTab(ModTabs.tabDCVariants);
+        wallyWestNew52Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Pants").setCreativeTab(ModTabs.tabDCVariants);
+        wallyWestNew52Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wallyWestNew52").setUnlocalizedName("wallyWestNew52Boots").setCreativeTab(ModTabs.tabDCVariants);
 
         whiteCanaryCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "whiteCanaryCW").setUnlocalizedName("whiteCanaryCWHead").setCreativeTab(ModTabs.tabDCHeroes);
         whiteCanaryCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "whiteCanaryCW").setUnlocalizedName("whiteCanaryCWChest").setCreativeTab(ModTabs.tabDCHeroes);
         whiteCanaryCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "whiteCanaryCW").setUnlocalizedName("whiteCanaryCWPants").setCreativeTab(ModTabs.tabDCHeroes);
         whiteCanaryCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "whiteCanaryCW").setUnlocalizedName("whiteCanaryCWBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
+        whiteLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "whiteLantern").setUnlocalizedName("whiteLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
+        whiteLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "whiteLantern").setUnlocalizedName("whiteLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
+        whiteLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "whiteLantern").setUnlocalizedName("whiteLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
+        whiteLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "whiteLantern").setUnlocalizedName("whiteLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
+
         wonderGirlHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderGirl").setUnlocalizedName("wonderGirlHead").setCreativeTab(ModTabs.tabDCHeroes);
         wonderGirlChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderGirl").setUnlocalizedName("wonderGirlChest").setCreativeTab(ModTabs.tabDCHeroes);
         wonderGirlPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderGirl").setUnlocalizedName("wonderGirlPants").setCreativeTab(ModTabs.tabDCHeroes);
         wonderGirlBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderGirl").setUnlocalizedName("wonderGirlBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        wonderGirl2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderGirl2").setUnlocalizedName("wonderGirl2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderGirl2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderGirl2").setUnlocalizedName("wonderGirl2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderGirl2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderGirl2").setUnlocalizedName("wonderGirl2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderGirl2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderGirl2").setUnlocalizedName("wonderGirl2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        wonderGirl2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderGirl2").setUnlocalizedName("wonderGirl2Head").setCreativeTab(ModTabs.tabDCVariants);
+        wonderGirl2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderGirl2").setUnlocalizedName("wonderGirl2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        wonderGirl2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderGirl2").setUnlocalizedName("wonderGirl2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        wonderGirl2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderGirl2").setUnlocalizedName("wonderGirl2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
         wonderWomanHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWoman").setUnlocalizedName("wonderWomanHead").setCreativeTab(ModTabs.tabDCHeroes);
         wonderWomanChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWoman").setUnlocalizedName("wonderWomanChest").setCreativeTab(ModTabs.tabDCHeroes);
         wonderWomanPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWoman").setUnlocalizedName("wonderWomanPants").setCreativeTab(ModTabs.tabDCHeroes);
         wonderWomanBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWoman").setUnlocalizedName("wonderWomanBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        wonderWomanDOJHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJHead").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanDOJChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJChest").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanDOJPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJPants").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanDOJBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        wonderWomanDOJHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJHead").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanDOJChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJChest").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanDOJPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJPants").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanDOJBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWomanDOJ").setUnlocalizedName("wonderWomanDOJBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        wonderWomanMovieHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWomanMovie").setUnlocalizedName("wonderWomanMovieHead").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanMovieChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWomanMovie").setUnlocalizedName("wonderWomanMovieChest").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanMoviePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWomanMovie").setUnlocalizedName("wonderWomanMoviePants").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanMovieBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWomanMovie").setUnlocalizedName("wonderWomanMovieBoots").setCreativeTab(ModTabs.tabDCHeroes);
+        wonderWomanMovieHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWomanMovie").setUnlocalizedName("wonderWomanMovieHead").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanMovieChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWomanMovie").setUnlocalizedName("wonderWomanMovieChest").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanMoviePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWomanMovie").setUnlocalizedName("wonderWomanMoviePants").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanMovieBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWomanMovie").setUnlocalizedName("wonderWomanMovieBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        wonderWomanNew52Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Head").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanNew52Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanNew52Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        wonderWomanNew52Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        wonderWomanNew52Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Head").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanNew52Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Chest").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanNew52Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Pants").setCreativeTab(ModTabs.tabDCVariants);
+        wonderWomanNew52Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "wonderWomanNew52").setUnlocalizedName("wonderWomanNew52Boots").setCreativeTab(ModTabs.tabDCVariants);
+
+        yellowLanternHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "yellowLantern").setUnlocalizedName("yellowLanternHead").setCreativeTab(ModTabs.tabDCHeroes);
+        yellowLanternChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "yellowLantern").setUnlocalizedName("yellowLanternChest").setCreativeTab(ModTabs.tabDCHeroes);
+        yellowLanternPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "yellowLantern").setUnlocalizedName("yellowLanternPants").setCreativeTab(ModTabs.tabDCHeroes);
+        yellowLanternBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "yellowLantern").setUnlocalizedName("yellowLanternBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
         zatannaHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "zatanna").setUnlocalizedName("zatannaHead").setCreativeTab(ModTabs.tabDCHeroes);
         zatannaChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "zatanna").setUnlocalizedName("zatannaChest").setCreativeTab(ModTabs.tabDCHeroes);
         zatannaPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "zatanna").setUnlocalizedName("zatannaPants").setCreativeTab(ModTabs.tabDCHeroes);
         zatannaBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "zatanna").setUnlocalizedName("zatannaBoots").setCreativeTab(ModTabs.tabDCHeroes);
 
-        zatannaHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "zatanna").setUnlocalizedName("zatannaHead").setCreativeTab(ModTabs.tabDCHeroes);
-        zatannaChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "zatanna").setUnlocalizedName("zatannaChest").setCreativeTab(ModTabs.tabDCHeroes);
-        zatannaPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "zatanna").setUnlocalizedName("zatannaPants").setCreativeTab(ModTabs.tabDCHeroes);
-        zatannaBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "zatanna").setUnlocalizedName("zatannaBoots").setCreativeTab(ModTabs.tabDCHeroes);
-
-        zatanna2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "zatanna2").setUnlocalizedName("zatanna2Head").setCreativeTab(ModTabs.tabDCHeroes);
-        zatanna2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "zatanna2").setUnlocalizedName("zatanna2Chest").setCreativeTab(ModTabs.tabDCHeroes);
-        zatanna2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "zatanna2").setUnlocalizedName("zatanna2Pants").setCreativeTab(ModTabs.tabDCHeroes);
-        zatanna2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "zatanna2").setUnlocalizedName("zatanna2Boots").setCreativeTab(ModTabs.tabDCHeroes);
+        zatanna2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "zatanna2").setUnlocalizedName("zatanna2Head").setCreativeTab(ModTabs.tabDCVariants);
+        zatanna2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "zatanna2").setUnlocalizedName("zatanna2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        zatanna2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "zatanna2").setUnlocalizedName("zatanna2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        zatanna2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "zatanna2").setUnlocalizedName("zatanna2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
 
                 //VILLAINS
@@ -918,15 +950,15 @@ public class ModDCCostumes
         captainBoomerangPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "captainBoomerang").setUnlocalizedName("captainBoomerangPants").setCreativeTab(ModTabs.tabDCVillains);
         captainBoomerangBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "captainBoomerang").setUnlocalizedName("captainBoomerangBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        captainBoomerangCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        captainBoomerangCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        captainBoomerangCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        captainBoomerangCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        captainBoomerangCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        captainBoomerangCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        captainBoomerangCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        captainBoomerangCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "captainBoomerangCW").setUnlocalizedName("captainBoomerangCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        captainColdCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "captainColdCW").setUnlocalizedName("captainColdCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        captainColdCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "captainColdCW").setUnlocalizedName("captainColdCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        captainColdCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "captainColdCW").setUnlocalizedName("captainColdCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        captainColdCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "captainColdCW").setUnlocalizedName("captainColdCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        captainColdCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "captainColdCW").setUnlocalizedName("captainColdCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        captainColdCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "captainColdCW").setUnlocalizedName("captainColdCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        captainColdCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "captainColdCW").setUnlocalizedName("captainColdCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        captainColdCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "captainColdCW").setUnlocalizedName("captainColdCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         captainColdHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "captainCold").setUnlocalizedName("captainColdHead").setCreativeTab(ModTabs.tabDCVillains);
         captainColdChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "captainCold").setUnlocalizedName("captainColdChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -938,10 +970,10 @@ public class ModDCCostumes
         catwomanPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "catwoman").setUnlocalizedName("catwomanPants").setCreativeTab(ModTabs.tabDCVillains);
         catwomanBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "catwoman").setUnlocalizedName("catwomanBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        catwomanMovieHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "catwomanMovie").setUnlocalizedName("catwomanMovieHead").setCreativeTab(ModTabs.tabDCVillains);
-        catwomanMovieChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "catwomanMovie").setUnlocalizedName("catwomanMovieChest").setCreativeTab(ModTabs.tabDCVillains);
-        catwomanMoviePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "catwomanMovie").setUnlocalizedName("catwomanMoviePants").setCreativeTab(ModTabs.tabDCVillains);
-        catwomanMovieBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "catwomanMovie").setUnlocalizedName("catwomanMovieBoots").setCreativeTab(ModTabs.tabDCVillains);
+        catwomanMovieHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "catwomanMovie").setUnlocalizedName("catwomanMovieHead").setCreativeTab(ModTabs.tabDCVariants);
+        catwomanMovieChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "catwomanMovie").setUnlocalizedName("catwomanMovieChest").setCreativeTab(ModTabs.tabDCVariants);
+        catwomanMoviePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "catwomanMovie").setUnlocalizedName("catwomanMoviePants").setCreativeTab(ModTabs.tabDCVariants);
+        catwomanMovieBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "catwomanMovie").setUnlocalizedName("catwomanMovieBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         catmanHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "catman").setUnlocalizedName("catmanHead").setCreativeTab(ModTabs.tabDCVillains);
         catmanChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "catman").setUnlocalizedName("catmanChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -958,10 +990,10 @@ public class ModDCCostumes
         chronosPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "chronos").setUnlocalizedName("chronosPants").setCreativeTab(ModTabs.tabDCVillains);
         chronosBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "chronos").setUnlocalizedName("chronosBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        cupidHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "cupid").setUnlocalizedName("cupidHead").setCreativeTab(ModTabs.tabDCVillains);
-        cupidChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "cupid").setUnlocalizedName("cupidChest").setCreativeTab(ModTabs.tabDCVillains);
-        cupidPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "cupid").setUnlocalizedName("cupidPants").setCreativeTab(ModTabs.tabDCVillains);
-        cupidBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "cupid").setUnlocalizedName("cupidBoots").setCreativeTab(ModTabs.tabDCVillains);
+        cupidCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "cupidCW").setUnlocalizedName("cupidCWHead").setCreativeTab(ModTabs.tabDCVillains);
+        cupidCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "cupidCW").setUnlocalizedName("cupidCWChest").setCreativeTab(ModTabs.tabDCVillains);
+        cupidCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "cupidCW").setUnlocalizedName("cupidCWPants").setCreativeTab(ModTabs.tabDCVillains);
+        cupidCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "cupidCW").setUnlocalizedName("cupidCWBoots").setCreativeTab(ModTabs.tabDCVillains);
 
         cyborgSupermanHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "cyborgSuperman").setUnlocalizedName("cyborgSupermanHead").setCreativeTab(ModTabs.tabDCVillains);
         cyborgSupermanChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "cyborgSuperman").setUnlocalizedName("cyborgSupermanChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -978,20 +1010,20 @@ public class ModDCCostumes
         deadshotPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "deadshot").setUnlocalizedName("deadshotPants").setCreativeTab(ModTabs.tabDCVillains);
         deadshotBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "deadshot").setUnlocalizedName("deadshotBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        deadshotCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "deadshotCW").setUnlocalizedName("deadshotCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        deadshotCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "deadshotCW").setUnlocalizedName("deadshotCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        deadshotCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "deadshotCW").setUnlocalizedName("deadshotCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        deadshotCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "deadshotCW").setUnlocalizedName("deadshotCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        deadshotCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "deadshotCW").setUnlocalizedName("deadshotCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        deadshotCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "deadshotCW").setUnlocalizedName("deadshotCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        deadshotCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "deadshotCW").setUnlocalizedName("deadshotCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        deadshotCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "deadshotCW").setUnlocalizedName("deadshotCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         deathstrokeHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "deathstroke").setUnlocalizedName("deathstrokeHead").setCreativeTab(ModTabs.tabDCVillains);
         deathstrokeChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "deathstroke").setUnlocalizedName("deathstrokeChest").setCreativeTab(ModTabs.tabDCVillains);
         deathstrokePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "deathstroke").setUnlocalizedName("deathstrokePants").setCreativeTab(ModTabs.tabDCVillains);
         deathstrokeBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "deathstroke").setUnlocalizedName("deathstrokeBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        deathstrokeCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "deathstrokeCW").setUnlocalizedName("deathstrokeCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        deathstrokeCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "deathstrokeCW").setUnlocalizedName("deathstrokeCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        deathstrokeCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "deathstrokeCW").setUnlocalizedName("deathstrokeCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        deathstrokeCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "deathstrokeCW").setUnlocalizedName("deathstrokeCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        deathstrokeCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "deathstrokeCW").setUnlocalizedName("deathstrokeCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        deathstrokeCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "deathstrokeCW").setUnlocalizedName("deathstrokeCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        deathstrokeCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "deathstrokeCW").setUnlocalizedName("deathstrokeCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        deathstrokeCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "deathstrokeCW").setUnlocalizedName("deathstrokeCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         doomsdayHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "doomsday").setUnlocalizedName("doomsdayHead").setCreativeTab(ModTabs.tabDCVillains);
         doomsdayChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "doomsday").setUnlocalizedName("doomsdayChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -1013,10 +1045,10 @@ public class ModDCCostumes
         heatwavePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "heatwave").setUnlocalizedName("heatwavePants").setCreativeTab(ModTabs.tabDCVillains);
         heatwaveBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "heatwave").setUnlocalizedName("heatwaveBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        huntressCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "huntressCW").setUnlocalizedName("huntressCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        huntressCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "huntressCW").setUnlocalizedName("huntressCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        huntressCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "huntressCW").setUnlocalizedName("huntressCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        huntressCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "huntressCW").setUnlocalizedName("huntressCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        huntressCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "huntressCW").setUnlocalizedName("huntressCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        huntressCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "huntressCW").setUnlocalizedName("huntressCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        huntressCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "huntressCW").setUnlocalizedName("huntressCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        huntressCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "huntressCW").setUnlocalizedName("huntressCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         jokerHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "joker").setUnlocalizedName("jokerHead").setCreativeTab(ModTabs.tabDCVillains);
         jokerChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "joker").setUnlocalizedName("jokerChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -1033,10 +1065,10 @@ public class ModDCCostumes
         katanaCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "katanaCW").setUnlocalizedName("katanaCWPants").setCreativeTab(ModTabs.tabDCVillains);
         katanaCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "katanaCW").setUnlocalizedName("katanaCWBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        lexLuthorArmoredHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredHead").setCreativeTab(ModTabs.tabDCVillains);
-        lexLuthorArmoredChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredChest").setCreativeTab(ModTabs.tabDCVillains);
-        lexLuthorArmoredPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredPants").setCreativeTab(ModTabs.tabDCVillains);
-        lexLuthorArmoredBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredBoots").setCreativeTab(ModTabs.tabDCVillains);
+        lexLuthorArmoredHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredHead").setCreativeTab(ModTabs.tabDCVariants);
+        lexLuthorArmoredChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredChest").setCreativeTab(ModTabs.tabDCVariants);
+        lexLuthorArmoredPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredPants").setCreativeTab(ModTabs.tabDCVariants);
+        lexLuthorArmoredBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "lexLuthorArmored").setUnlocalizedName("lexLuthorArmoredBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         lexLuthorHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "lexLuthor").setUnlocalizedName("lexLuthorHead").setCreativeTab(ModTabs.tabDCVillains);
         lexLuthorChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "lexLuthor").setUnlocalizedName("lexLuthorChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -1073,35 +1105,35 @@ public class ModDCCostumes
         rasAlGhulPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "rasAlGhul").setUnlocalizedName("rasAlGhulPants").setCreativeTab(ModTabs.tabDCVillains);
         rasAlGhulBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "rasAlGhul").setUnlocalizedName("rasAlGhulBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        rasAlGhulCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        rasAlGhulCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        rasAlGhulCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        rasAlGhulCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        rasAlGhulCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        rasAlGhulCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        rasAlGhulCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        rasAlGhulCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "rasAlGhulCW").setUnlocalizedName("rasAlGhulCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
-        redHoodArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redHoodArkham").setUnlocalizedName("redHoodArkhamHead").setCreativeTab(ModTabs.tabDCVillains);
-        redHoodArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redHoodArkham").setUnlocalizedName("redHoodArkhamChest").setCreativeTab(ModTabs.tabDCVillains);
-        redHoodArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redHoodArkham").setUnlocalizedName("redHoodArkhamPants").setCreativeTab(ModTabs.tabDCVillains);
-        redHoodArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "redHoodArkham").setUnlocalizedName("redHoodArkhamBoots").setCreativeTab(ModTabs.tabDCVillains);
+        redHoodArkhamHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redHoodArkham").setUnlocalizedName("redHoodArkhamHead").setCreativeTab(ModTabs.tabDCVariants);
+        redHoodArkhamChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redHoodArkham").setUnlocalizedName("redHoodArkhamChest").setCreativeTab(ModTabs.tabDCVariants);
+        redHoodArkhamPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redHoodArkham").setUnlocalizedName("redHoodArkhamPants").setCreativeTab(ModTabs.tabDCVariants);
+        redHoodArkhamBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "redHoodArkham").setUnlocalizedName("redHoodArkhamBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         redHoodHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redHood").setUnlocalizedName("redHoodHead").setCreativeTab(ModTabs.tabDCVillains);
         redHoodChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redHood").setUnlocalizedName("redHoodChest").setCreativeTab(ModTabs.tabDCVillains);
         redHoodPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redHood").setUnlocalizedName("redHoodPants").setCreativeTab(ModTabs.tabDCVillains);
         redHoodBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "redHood").setUnlocalizedName("redHoodBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        redHoodJokerHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redHoodJoker").setUnlocalizedName("redHoodJokerHead").setCreativeTab(ModTabs.tabDCVillains);
-        redHoodJokerChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redHoodJoker").setUnlocalizedName("redHoodJokerChest").setCreativeTab(ModTabs.tabDCVillains);
-        redHoodJokerPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redHoodJoker").setUnlocalizedName("redHoodJokerPants").setCreativeTab(ModTabs.tabDCVillains);
-        redHoodJokerBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "redHoodJoker").setUnlocalizedName("redHoodJokerBoots").setCreativeTab(ModTabs.tabDCVillains);
+        redHoodJokerHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "redHoodJoker").setUnlocalizedName("redHoodJokerHead").setCreativeTab(ModTabs.tabDCVariants);
+        redHoodJokerChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "redHoodJoker").setUnlocalizedName("redHoodJokerChest").setCreativeTab(ModTabs.tabDCVariants);
+        redHoodJokerPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "redHoodJoker").setUnlocalizedName("redHoodJokerPants").setCreativeTab(ModTabs.tabDCVariants);
+        redHoodJokerBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "redHoodJoker").setUnlocalizedName("redHoodJokerBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         reverseFlashHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "reverseFlash").setUnlocalizedName("reverseFlashHead").setCreativeTab(ModTabs.tabDCVillains);
         reverseFlashChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "reverseFlash").setUnlocalizedName("reverseFlashChest").setCreativeTab(ModTabs.tabDCVillains);
         reverseFlashPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "reverseFlash").setUnlocalizedName("reverseFlashPants").setCreativeTab(ModTabs.tabDCVillains);
         reverseFlashBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "reverseFlash").setUnlocalizedName("reverseFlashBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        reverseFlashCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "reverseFlashCW").setUnlocalizedName("reverseFlashCWHead").setCreativeTab(ModTabs.tabDCVillains);
-        reverseFlashCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "reverseFlashCW").setUnlocalizedName("reverseFlashCWChest").setCreativeTab(ModTabs.tabDCVillains);
-        reverseFlashCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "reverseFlashCW").setUnlocalizedName("reverseFlashCWPants").setCreativeTab(ModTabs.tabDCVillains);
-        reverseFlashCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "reverseFlashCW").setUnlocalizedName("reverseFlashCWBoots").setCreativeTab(ModTabs.tabDCVillains);
+        reverseFlashCWHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "reverseFlashCW").setUnlocalizedName("reverseFlashCWHead").setCreativeTab(ModTabs.tabDCVariants);
+        reverseFlashCWChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "reverseFlashCW").setUnlocalizedName("reverseFlashCWChest").setCreativeTab(ModTabs.tabDCVariants);
+        reverseFlashCWPants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "reverseFlashCW").setUnlocalizedName("reverseFlashCWPants").setCreativeTab(ModTabs.tabDCVariants);
+        reverseFlashCWBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "reverseFlashCW").setUnlocalizedName("reverseFlashCWBoots").setCreativeTab(ModTabs.tabDCVariants);
 
         scarecrowHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "scarecrow").setUnlocalizedName("scarecrowHead").setCreativeTab(ModTabs.tabDCVillains);
         scarecrowChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "scarecrow").setUnlocalizedName("scarecrowChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -1118,10 +1150,10 @@ public class ModDCCostumes
         starSapphirePants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "starSapphire").setUnlocalizedName("starSapphirePants").setCreativeTab(ModTabs.tabDCVillains);
         starSapphireBoots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "starSapphire").setUnlocalizedName("starSapphireBoots").setCreativeTab(ModTabs.tabDCVillains);
 
-        starSapphire2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "starSapphire2").setUnlocalizedName("starSapphire2Head").setCreativeTab(ModTabs.tabDCVillains);
-        starSapphire2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "starSapphire2").setUnlocalizedName("starSapphire2Chest").setCreativeTab(ModTabs.tabDCVillains);
-        starSapphire2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "starSapphire2").setUnlocalizedName("starSapphire2Pants").setCreativeTab(ModTabs.tabDCVillains);
-        starSapphire2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "starSapphire2").setUnlocalizedName("starSapphire2Boots").setCreativeTab(ModTabs.tabDCVillains);
+        starSapphire2Head = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "starSapphire2").setUnlocalizedName("starSapphire2Head").setCreativeTab(ModTabs.tabDCVariants);
+        starSapphire2Chest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "starSapphire2").setUnlocalizedName("starSapphire2Chest").setCreativeTab(ModTabs.tabDCVariants);
+        starSapphire2Pants = new ItemGenericCostume(ModCostume.HERO, renderIndex, 2, "starSapphire2").setUnlocalizedName("starSapphire2Pants").setCreativeTab(ModTabs.tabDCVariants);
+        starSapphire2Boots = new ItemGenericCostume(ModCostume.HERO, renderIndex, 3, "starSapphire2").setUnlocalizedName("starSapphire2Boots").setCreativeTab(ModTabs.tabDCVariants);
 
         tricksterHead = new ItemGenericCostume(ModCostume.HERO, renderIndex, 0, "trickster").setUnlocalizedName("tricksterHead").setCreativeTab(ModTabs.tabDCVillains);
         tricksterChest = new ItemGenericCostume(ModCostume.HERO, renderIndex, 1, "trickster").setUnlocalizedName("tricksterChest").setCreativeTab(ModTabs.tabDCVillains);
@@ -1195,6 +1227,11 @@ public class ModDCCostumes
         GameRegistry.registerItem(ATOMChest, ATOMChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(ATOMPants, ATOMPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(ATOMBoots, ATOMBoots.getUnlocalizedName().substring(5));
+
+        GameRegistry.registerItem(atomClassicHead, atomClassicHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(atomClassicChest, atomClassicChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(atomClassicPants, atomClassicPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(atomClassicBoots, atomClassicBoots.getUnlocalizedName().substring(5));
 
         GameRegistry.registerItem(batgirlHead, batgirlHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(batgirlChest, batgirlChest.getUnlocalizedName().substring(5));
@@ -1291,6 +1328,11 @@ public class ModDCCostumes
         GameRegistry.registerItem(blackCanaryCWPants, blackCanaryCWPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(blackCanaryCWBoots, blackCanaryCWBoots.getUnlocalizedName().substring(5));
 
+        GameRegistry.registerItem(blackLanternHead, blackLanternHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(blackLanternChest, blackLanternChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(blackLanternPants, blackLanternPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(blackLanternBoots, blackLanternBoots.getUnlocalizedName().substring(5));
+
         GameRegistry.registerItem(blackLightningHead, blackLightningHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(blackLightningChest, blackLightningChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(blackLightningPants, blackLightningPants.getUnlocalizedName().substring(5));
@@ -1300,6 +1342,11 @@ public class ModDCCostumes
         GameRegistry.registerItem(blueBeetleChest, blueBeetleChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(blueBeetlePants, blueBeetlePants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(blueBeetleBoots, blueBeetleBoots.getUnlocalizedName().substring(5));
+
+        GameRegistry.registerItem(blueLanternHead, blueLanternHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(blueLanternChest, blueLanternChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(blueLanternPants, blueLanternPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(blueLanternBoots, blueLanternBoots.getUnlocalizedName().substring(5));
 
         GameRegistry.registerItem(blueBeetleTedKordHead, blueBeetleTedKordHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(blueBeetleTedKordChest, blueBeetleTedKordChest.getUnlocalizedName().substring(5));
@@ -1481,6 +1528,11 @@ public class ModDCCostumes
         GameRegistry.registerItem(nightwingRedPants, nightwingRedPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(nightwingRedBoots, nightwingRedBoots.getUnlocalizedName().substring(5));
 
+        GameRegistry.registerItem(orangeLanternHead, orangeLanternHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(orangeLanternChest, orangeLanternChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(orangeLanternPants, orangeLanternPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(orangeLanternBoots, orangeLanternBoots.getUnlocalizedName().substring(5));
+
         GameRegistry.registerItem(plasticManHead, plasticManHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(plasticManChest, plasticManChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(plasticManPants, plasticManPants.getUnlocalizedName().substring(5));
@@ -1495,6 +1547,11 @@ public class ModDCCostumes
         GameRegistry.registerItem(ravenChest, ravenChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(ravenPants, ravenPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(ravenBoots, ravenBoots.getUnlocalizedName().substring(5));
+
+        GameRegistry.registerItem(redLanternHead, redLanternHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(redLanternChest, redLanternChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(redLanternPants, redLanternPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(redLanternBoots, redLanternBoots.getUnlocalizedName().substring(5));
 
         GameRegistry.registerItem(redTornadoHead, redTornadoHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(redTornadoChest, redTornadoChest.getUnlocalizedName().substring(5));
@@ -1591,11 +1648,6 @@ public class ModDCCostumes
         GameRegistry.registerItem(supermanRedSonPants, supermanRedSonPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(supermanRedSonBoots, supermanRedSonBoots.getUnlocalizedName().substring(5));
 
-        GameRegistry.registerItem(atomClassicHead, atomClassicHead.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(atomClassicChest, atomClassicChest.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(atomClassicPants, atomClassicPants.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(atomClassicBoots, atomClassicBoots.getUnlocalizedName().substring(5));
-
         GameRegistry.registerItem(questionHead, questionHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(questionChest, questionChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(questionPants, questionPants.getUnlocalizedName().substring(5));
@@ -1636,6 +1688,11 @@ public class ModDCCostumes
         GameRegistry.registerItem(whiteCanaryCWPants, whiteCanaryCWPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(whiteCanaryCWBoots, whiteCanaryCWBoots.getUnlocalizedName().substring(5));
 
+        GameRegistry.registerItem(whiteLanternHead, whiteLanternHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(whiteLanternChest, whiteLanternChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(whiteLanternPants, whiteLanternPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(whiteLanternBoots, whiteLanternBoots.getUnlocalizedName().substring(5));
+
         GameRegistry.registerItem(wonderGirlHead, wonderGirlHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(wonderGirlChest, wonderGirlChest.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(wonderGirlPants, wonderGirlPants.getUnlocalizedName().substring(5));
@@ -1666,10 +1723,10 @@ public class ModDCCostumes
         GameRegistry.registerItem(wonderWomanNew52Pants, wonderWomanNew52Pants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(wonderWomanNew52Boots, wonderWomanNew52Boots.getUnlocalizedName().substring(5));
 
-        GameRegistry.registerItem(zatannaHead, zatannaHead.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(zatannaChest, zatannaChest.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(zatannaPants, zatannaPants.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(zatannaBoots, zatannaBoots.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(yellowLanternHead, yellowLanternHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(yellowLanternChest, yellowLanternChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(yellowLanternPants, yellowLanternPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(yellowLanternBoots, yellowLanternBoots.getUnlocalizedName().substring(5));
 
         GameRegistry.registerItem(zatannaHead, zatannaHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(zatannaChest, zatannaChest.getUnlocalizedName().substring(5));
@@ -1770,10 +1827,10 @@ public class ModDCCostumes
         GameRegistry.registerItem(chronosPants, chronosPants.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(chronosBoots, chronosBoots.getUnlocalizedName().substring(5));
 
-        GameRegistry.registerItem(cupidHead, cupidHead.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(cupidChest, cupidChest.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(cupidPants, cupidPants.getUnlocalizedName().substring(5));
-        GameRegistry.registerItem(cupidBoots, cupidBoots.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(cupidCWHead, cupidCWHead.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(cupidCWChest, cupidCWChest.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(cupidCWPants, cupidCWPants.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(cupidCWBoots, cupidCWBoots.getUnlocalizedName().substring(5));
 
         GameRegistry.registerItem(cyborgSupermanHead, cyborgSupermanHead.getUnlocalizedName().substring(5));
         GameRegistry.registerItem(cyborgSupermanChest, cyborgSupermanChest.getUnlocalizedName().substring(5));
@@ -1966,6 +2023,7 @@ public class ModDCCostumes
         GameRegistry.registerItem(zoomCWBoots, zoomCWBoots.getUnlocalizedName().substring(5));
 
 
-            Main.proxy.registerRenderers();
+    Main.proxy.registerRenderers();
+
     }
 }
