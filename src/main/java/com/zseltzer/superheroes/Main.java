@@ -46,7 +46,6 @@ public class Main
         ModDCTools.init();
 
         ModMarvelTools.init();
-
     }
 
     @Mod.EventHandler
